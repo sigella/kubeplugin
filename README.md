@@ -7,11 +7,11 @@ This is the bash script which gets resourse usage statistic, format and print is
 ## usage
 
 ```bash
-/bin/bash scripts/kubeplugin.sh  <resource_type (pods|nodes)> <namespace>
+/bin/bash scripts/kubeplugin  <resource_type (pods|nodes)> <namespace>
 "Examples:"
-    "/bin/bash scripts/kubeplugin.sh pods kube-system"
-    "/bin/bash scripts/kubeplugin.sh pods"
-    "/bin/bash scripts/kubeplugin.sh nodes"
+    "/bin/bash scripts/kubeplugin pods kube-system"
+    "/bin/bash scripts/kubeplugin pods"
+    "/bin/bash scripts/kubeplugin nodes"
 ```
 
 ## Demo
